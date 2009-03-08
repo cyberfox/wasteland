@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 667B6EC30F62FAB500B08D3B /* Fallout 3 Hackers Helper */;
+		activeTarget = 8D1107260486CEB800E47090 /* Fallout 3 Hackers Helper */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Fallout 3 Hackers Helper */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 667B6EC70F62FAD400B08D3B /* Code sense */;
+		executables = (
+			667B6EC30F62FAB500B08D3B /* Fallout 3 Hackers Helper */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					544,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 258189571;
+			PBXWorkspaceStateSaveDate = 258189571;
+		};
+		perUserProjectItems = {
+			66BECC7B0F63DCDF009494AF /* PBXTextBookmark */ = 66BECC7B0F63DCDF009494AF /* PBXTextBookmark */;
+			66BECC7C0F63DCDF009494AF /* PBXTextBookmark */ = 66BECC7C0F63DCDF009494AF /* PBXTextBookmark */;
+			66BECC7D0F63DCDF009494AF /* PBXTextBookmark */ = 66BECC7D0F63DCDF009494AF /* PBXTextBookmark */;
+			66BECC7E0F63DCDF009494AF /* PBXTextBookmark */ = 66BECC7E0F63DCDF009494AF /* PBXTextBookmark */;
+			66BECC7F0F63DCDF009494AF /* PBXTextBookmark */ = 66BECC7F0F63DCDF009494AF /* PBXTextBookmark */;
+			66BECC800F63DCDF009494AF /* PBXTextBookmark */ = 66BECC800F63DCDF009494AF /* PBXTextBookmark */;
+			66BECC810F63DCDF009494AF /* PBXTextBookmark */ = 66BECC810F63DCDF009494AF /* PBXTextBookmark */;
+			66BECC820F63DCDF009494AF /* PBXTextBookmark */ = 66BECC820F63DCDF009494AF /* PBXTextBookmark */;
+			66BECC830F63DCDF009494AF /* PBXTextBookmark */ = 66BECC830F63DCDF009494AF /* PBXTextBookmark */;
+			66BECC840F63DCDF009494AF /* PBXTextBookmark */ = 66BECC840F63DCDF009494AF /* PBXTextBookmark */;
+			66BECC850F63DCDF009494AF /* PBXTextBookmark */ = 66BECC850F63DCDF009494AF /* PBXTextBookmark */;
+			66BECC860F63DCDF009494AF /* PBXTextBookmark */ = 66BECC860F63DCDF009494AF /* PBXTextBookmark */;
+			66BECC870F63DCDF009494AF /* PBXTextBookmark */ = 66BECC870F63DCDF009494AF /* PBXTextBookmark */;
+			66BECC880F63DCDF009494AF /* PBXTextBookmark */ = 66BECC880F63DCDF009494AF /* PBXTextBookmark */;
+			66BECC890F63DCDF009494AF /* PBXTextBookmark */ = 66BECC890F63DCDF009494AF /* PBXTextBookmark */;
+			66BECC8A0F63DCDF009494AF /* PBXTextBookmark */ = 66BECC8A0F63DCDF009494AF /* PBXTextBookmark */;
+			66BECC8B0F63DCDF009494AF /* PBXTextBookmark */ = 66BECC8B0F63DCDF009494AF /* PBXTextBookmark */;
+			66BECC8C0F63DCDF009494AF /* PBXTextBookmark */ = 66BECC8C0F63DCDF009494AF /* PBXTextBookmark */;
+			66BECC8D0F63DCDF009494AF /* PBXTextBookmark */ = 66BECC8D0F63DCDF009494AF /* PBXTextBookmark */;
+			66BECC8E0F63DCDF009494AF /* PBXTextBookmark */ = 66BECC8E0F63DCDF009494AF /* PBXTextBookmark */;
+			66BECC9E0F63DD37009494AF /* PBXTextBookmark */ = 66BECC9E0F63DD37009494AF /* PBXTextBookmark */;
+			66BECCA00F63DD56009494AF /* PBXTextBookmark */ = 66BECCA00F63DD56009494AF /* PBXTextBookmark */;
+			66BECCA10F63DD56009494AF /* PBXTextBookmark */ = 66BECCA10F63DD56009494AF /* PBXTextBookmark */;
+			66BECCA20F63DD56009494AF /* PBXTextBookmark */ = 66BECCA20F63DD56009494AF /* PBXTextBookmark */;
+			66BECCA30F63DD56009494AF /* PBXTextBookmark */ = 66BECCA30F63DD56009494AF /* PBXTextBookmark */;
+		};
+		sourceControlManager = 667B6EC60F62FAD400B08D3B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	667B6EC30F62FAB500B08D3B /* Fallout 3 Hackers Helper */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Fallout 3 Hackers Helper";
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	667B6EC60F62FAD400B08D3B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	667B6EC70F62FAD400B08D3B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {750, 910}}";
+			sepNavSelRange = "{1719, 36}";
+			sepNavVisRange = "{928, 827}";
+		};
+	};
+	66BECC6A0F63D567009494AF /* WordOutline.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {722, 812}}";
+			sepNavSelRange = "{1029, 0}";
+			sepNavVisRange = "{307, 1027}";
+			sepNavWindowFrame = "{{15, 182}, {826, 691}}";
+		};
+	};
+	66BECC7B0F63DCDF009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 50";
+		rLen = 0;
+		rLoc = 1539;
+		rType = 0;
+		vrLen = 790;
+		vrLoc = 965;
+	};
+	66BECC7C0F63DCDF009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 47";
+		rLen = 0;
+		rLoc = 1463;
+		rType = 0;
+		vrLen = 991;
+		vrLoc = 601;
+	};
+	66BECC7D0F63DCDF009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 101";
+		rLen = 36;
+		rLoc = 1719;
+		rType = 0;
+		vrLen = 898;
+		vrLoc = 0;
+	};
+	66BECC7E0F63DCDF009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 178;
+		vrLoc = 0;
+	};
+	66BECC7F0F63DCDF009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 101";
+		rLen = 36;
+		rLoc = 1719;
+		rType = 0;
+		vrLen = 898;
+		vrLoc = 0;
+	};
+	66BECC800F63DCDF009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 11";
+		rLen = 0;
+		rLoc = 306;
+		rType = 0;
+		vrLen = 217;
+		vrLoc = 0;
+	};
+	66BECC810F63DCDF009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 15";
+		rLen = 0;
+		rLoc = 379;
+		rType = 0;
+		vrLen = 838;
+		vrLoc = 0;
+	};
+	66BECC820F63DCDF009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 11";
+		rLen = 0;
+		rLoc = 306;
+		rType = 0;
+		vrLen = 676;
+		vrLoc = 0;
+	};
+	66BECC830F63DCDF009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 26";
+		rLen = 0;
+		rLoc = 727;
+		rType = 0;
+		vrLen = 981;
+		vrLoc = 439;
+	};
+	66BECC840F63DCDF009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 16";
+		rLen = 0;
+		rLoc = 1192;
+		rType = 0;
+		vrLen = 750;
+		vrLoc = 0;
+	};
+	66BECC850F63DCDF009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 42";
+		rLen = 0;
+		rLoc = 1202;
+		rType = 0;
+		vrLen = 698;
+		vrLoc = 1019;
+	};
+	66BECC860F63DCDF009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 11";
+		rLen = 0;
+		rLoc = 227;
+		rType = 0;
+		vrLen = 807;
+		vrLoc = 0;
+	};
+	66BECC870F63DCDF009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 25";
+		rLen = 0;
+		rLoc = 713;
+		rType = 0;
+		vrLen = 931;
+		vrLoc = 439;
+	};
+	66BECC880F63DCDF009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 41";
+		rLen = 0;
+		rLoc = 1192;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 601;
+	};
+	66BECC890F63DCDF009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 25";
+		rLen = 0;
+		rLoc = 713;
+		rType = 0;
+		vrLen = 963;
+		vrLoc = 2;
+	};
+	66BECC8A0F63DCDF009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 41";
+		rLen = 0;
+		rLoc = 1192;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 601;
+	};
+	66BECC8B0F63DCDF009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 48";
+		rLen = 0;
+		rLoc = 1372;
+		rType = 0;
+		vrLen = 703;
+		vrLoc = 1028;
+	};
+	66BECC8C0F63DCDF009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 47";
+		rLen = 0;
+		rLoc = 1463;
+		rType = 0;
+		vrLen = 991;
+		vrLoc = 601;
+	};
+	66BECC8D0F63DCDF009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 50";
+		rLen = 0;
+		rLoc = 1539;
+		rType = 0;
+		vrLen = 790;
+		vrLoc = 965;
+	};
+	66BECC8E0F63DCDF009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 40";
+		rLen = 0;
+		rLoc = 1172;
+		rType = 0;
+		vrLen = 1079;
+		vrLoc = 261;
+	};
+	66BECC9E0F63DD37009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 40";
+		rLen = 0;
+		rLoc = 1146;
+		rType = 0;
+		vrLen = 1020;
+		vrLoc = 261;
+	};
+	66BECCA00F63DD56009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 40";
+		rLen = 0;
+		rLoc = 1146;
+		rType = 0;
+		vrLen = 1061;
+		vrLoc = 665;
+	};
+	66BECCA10F63DD56009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 50";
+		rLen = 0;
+		rLoc = 1539;
+		rType = 0;
+		vrLen = 790;
+		vrLoc = 965;
+	};
+	66BECCA20F63DD56009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 40";
+		rLen = 0;
+		rLoc = 1146;
+		rType = 0;
+		vrLen = 1061;
+		vrLoc = 665;
+	};
+	66BECCA30F63DD56009494AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 59";
+		rLen = 36;
+		rLoc = 1719;
+		rType = 0;
+		vrLen = 827;
+		vrLoc = 928;
+	};
+	8D1107260486CEB800E47090 /* Fallout 3 Hackers Helper */ = {
+		activeExec = 0;
+		executables = (
+			667B6EC30F62FAB500B08D3B /* Fallout 3 Hackers Helper */,
+		);
+	};
+}
