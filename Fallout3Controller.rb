@@ -13,18 +13,18 @@ class Fallout3Controller < NSWindowController
   end
 
   def analyze(sender)
-    @@words, @@result_set = get_words
-    counts = @@words.collect do |word|
-      @@result_set[word].values.uniq.length
+    @words, @result_set = get_words
+    counts = @words.collect do |word|
+      @result_set[word].values.uniq.length
     end
     max = counts.max
     suggestions = []
-    @@words.each_with_index do |word,index|
+    @words.each_with_index do |word,index|
       suggestions << word if counts[index] == max
     end
-    outline = WordOutline.new(@@words, @@result_set)
+    @outline = WordOutline.new(@words, @result_set)
+    @table.dataSource = @outline
     @result.stringValue = suggestions.join(', ')
-    @table.dataSource = outline
   end
 
   def select(sender)
