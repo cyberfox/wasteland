@@ -17,8 +17,9 @@ class WordOutline
   # Possible items...  nil, [key, {hash}], [key, string]
   def outlineView(view, numberOfChildrenOfItem:item)
     puts "nOCOI: #{item.inspect}"
-    return @depth.length if item.nil?
-    item.last.is_a?(String) ? 1 : item.last.length
+    return @hash.length if item.nil?
+    return (item.last.is_a?(String) ? 1 : item.last.length) if item.is_a?(Array)
+    return 0
   end
 
   def outlineView(view, isItemExpandable:item)
@@ -28,15 +29,21 @@ class WordOutline
   # Return the actual child, not the child that will be used for display.
   def outlineView(view, child:index, ofItem:item)
     puts "child: #{index.inspect}, #{item.inspect}"
-    return [@depth.keys[index], @depth[@depth.keys[index]]] if item.nil?
-    return item.last if item.last.is_a?(String)
-    key = item.last.keys[index]
-    [key, item.last[key]]
+    return [@hash.keys[index], @depth[@hash.keys[index]]] if item.nil?
+    if(item.is_a?(Array))
+      return item.last if item.last.is_a?(String)
+      key = item.last.keys[index]
+      return [key, item.last[key]]
+    end
+    return nil
   end
 
   def outlineView(view, objectValueForTableColumn:tableColumn, byItem:item)
-    puts "oVFTC: #{tableColumn.inspect}, #{item.inspect}"
-    return item.is_a?(String) ? item : item.first
+    puts "oVFTC: #{tableColumn.inspect}, #{item.inspect}, #{item.class}"
+    item = item.first if !item.is_a?(String) && item.respond_to?(:first) && item.length > 0
+    result = item.to_s
+    puts "oVFTC returning: #{result.inspect}"
+    return result
   end
 
   def deep_map(set)
