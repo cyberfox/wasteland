@@ -265,12 +265,13 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
+								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
+									<integer>3</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -295,7 +296,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>432 78 991 708 0 0 1440 878 </string>
+						<string>434 75 991 708 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -313,7 +314,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Fallout3Controller.rb</string>
+								<string>WordOutline.rb</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -321,15 +322,15 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Fallout3Controller.rb</string>
+										<string>WordOutline.rb</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>66BECCA30F63DD56009494AF</string>
+										<string>66BECD160F645284009494AF</string>
 										<key>history</key>
 										<array>
-											<string>66BECCA00F63DD56009494AF</string>
-											<string>66BECCA10F63DD56009494AF</string>
+											<string>66BECD0D0F645208009494AF</string>
+											<string>66BECD0E0F645208009494AF</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -351,6 +352,27 @@
 											<string>66BECC8C0F63DCDF009494AF</string>
 											<string>66BECC8D0F63DCDF009494AF</string>
 											<string>66BECCA20F63DD56009494AF</string>
+											<string>66BECCB40F63E747009494AF</string>
+											<string>66BECCB50F63E747009494AF</string>
+											<string>66BECCB60F63E747009494AF</string>
+											<string>66BECCB70F63E747009494AF</string>
+											<string>66BECCB80F63E747009494AF</string>
+											<string>66BECCBE0F63E7FE009494AF</string>
+											<string>66BECCBF0F63E7FE009494AF</string>
+											<string>66BECCD30F63EAA1009494AF</string>
+											<string>66BECCDB0F63EB9D009494AF</string>
+											<string>66BECCE10F63EDBB009494AF</string>
+											<string>66BECCE20F63EDBB009494AF</string>
+											<string>66BECCEA0F63EE5D009494AF</string>
+											<string>66BECCEB0F63EE5D009494AF</string>
+											<string>66BECCEC0F63EE5D009494AF</string>
+											<string>66BECCF20F63EEB1009494AF</string>
+											<string>66BECD060F645148009494AF</string>
+											<string>66BECD070F645148009494AF</string>
+											<string>66BECD080F645148009494AF</string>
+											<string>66BECD090F645148009494AF</string>
+											<string>66BECD0F0F645208009494AF</string>
+											<string>66BECD100F645208009494AF</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -364,7 +386,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {783, 489}}</string>
 								<key>RubberWindowFrame</key>
-								<string>432 78 991 708 0 0 1440 878 </string>
+								<string>434 75 991 708 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -384,7 +406,7 @@
 								<key>Frame</key>
 								<string>{{0, 494}, {783, 173}}</string>
 								<key>RubberWindowFrame</key>
-								<string>432 78 991 708 0 0 1440 878 </string>
+								<string>434 75 991 708 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -548,11 +570,11 @@
 		<string>66BECC9C0F63DCDF009494AF</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>66BECC920F63DCDF009494AF</string>
-		<string>/Users/mrs/Documents/Fallout 3 Hackers Helper/Fallout 3 Hackers Helper.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/mrs/Documents/Fallout 3 Hackers Helper/Fallout 3 Hackers Helper.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>432 78 991 708 0 0 1440 878 </string>
+	<string>434 75 991 708 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -894,18 +916,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1294, 444}}</string>
+								<string>{{0, 0}, {1375, 453}}</string>
 								<key>RubberWindowFrame</key>
-								<string>72 232 1294 485 0 0 1440 878 </string>
+								<string>9 65 1375 494 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
 							<key>Proportion</key>
-							<string>444pt</string>
+							<string>453pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>444pt</string>
+					<string>453pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -925,7 +947,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>72 232 1294 485 0 0 1440 878 </string>
+			<string>9 65 1375 494 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
