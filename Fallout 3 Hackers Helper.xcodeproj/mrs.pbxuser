@@ -102,6 +102,10 @@
 			6614EDE40F65182B00246C6B /* PBXTextBookmark */ = 6614EDE40F65182B00246C6B /* PBXTextBookmark */;
 			6614EDE50F65182B00246C6B /* PBXTextBookmark */ = 6614EDE50F65182B00246C6B /* PBXTextBookmark */;
 			6614EDE80F65187E00246C6B /* PBXTextBookmark */ = 6614EDE80F65187E00246C6B /* PBXTextBookmark */;
+			6614EDEC0F65E29600246C6B /* PBXTextBookmark */ = 6614EDEC0F65E29600246C6B /* PBXTextBookmark */;
+			6614EDED0F65E29600246C6B /* PBXTextBookmark */ = 6614EDED0F65E29600246C6B /* PBXTextBookmark */;
+			6614EDEE0F65E29600246C6B /* PBXTextBookmark */ = 6614EDEE0F65E29600246C6B /* PBXTextBookmark */;
+			6614EDEF0F65E29600246C6B /* PBXTextBookmark */ = 6614EDEF0F65E29600246C6B /* PBXTextBookmark */;
 			6690D8B50F6502C2003599D7 = 6690D8B50F6502C2003599D7 /* PBXTextBookmark */;
 			6690D8B60F6502C2003599D7 = 6690D8B60F6502C2003599D7 /* PBXTextBookmark */;
 			6690D8B70F6502C2003599D7 = 6690D8B70F6502C2003599D7 /* PBXTextBookmark */;
@@ -146,7 +150,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 31";
 		rLen = 0;
-		rLoc = 762;
+		rLoc = 783;
 		rType = 0;
 		vrLen = 910;
 		vrLoc = 313;
@@ -166,7 +170,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 31";
 		rLen = 0;
-		rLoc = 762;
+		rLoc = 783;
 		rType = 0;
 		vrLen = 910;
 		vrLoc = 313;
@@ -186,7 +190,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 31";
 		rLen = 0;
-		rLoc = 762;
+		rLoc = 783;
 		rType = 0;
 		vrLen = 842;
 		vrLoc = 313;
@@ -206,7 +210,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 31";
 		rLen = 0;
-		rLoc = 762;
+		rLoc = 783;
 		rType = 0;
 		vrLen = 866;
 		vrLoc = 307;
@@ -216,7 +220,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 31";
 		rLen = 0;
-		rLoc = 762;
+		rLoc = 783;
 		rType = 0;
 		vrLen = 842;
 		vrLoc = 313;
@@ -236,7 +240,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 61";
 		rLen = 0;
-		rLoc = 1533;
+		rLoc = 1721;
 		rType = 0;
 		vrLen = 909;
 		vrLoc = 969;
@@ -256,7 +260,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 37";
 		rLen = 0;
-		rLoc = 753;
+		rLoc = 774;
 		rType = 0;
 		vrLen = 940;
 		vrLoc = 1245;
@@ -266,7 +270,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 37";
 		rLen = 0;
-		rLoc = 753;
+		rLoc = 774;
 		rType = 0;
 		vrLen = 1004;
 		vrLoc = 1245;
@@ -286,7 +290,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 67";
 		rLen = 0;
-		rLoc = 1383;
+		rLoc = 1571;
 		rType = 0;
 		vrLen = 1018;
 		vrLoc = 1166;
@@ -306,7 +310,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 67";
 		rLen = 0;
-		rLoc = 1383;
+		rLoc = 1571;
 		rType = 0;
 		vrLen = 1037;
 		vrLoc = 1151;
@@ -316,7 +320,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 67";
 		rLen = 0;
-		rLoc = 1383;
+		rLoc = 1571;
 		rType = 0;
 		vrLen = 934;
 		vrLoc = 1151;
@@ -326,7 +330,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 75";
 		rLen = 0;
-		rLoc = 1599;
+		rLoc = 1786;
 		rType = 0;
 		vrLen = 843;
 		vrLoc = 1151;
@@ -336,7 +340,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 75";
 		rLen = 0;
-		rLoc = 1599;
+		rLoc = 1786;
 		rType = 0;
 		vrLen = 976;
 		vrLoc = 1151;
@@ -356,7 +360,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 75";
 		rLen = 0;
-		rLoc = 1599;
+		rLoc = 1786;
 		rType = 0;
 		vrLen = 825;
 		vrLoc = 1169;
@@ -366,7 +370,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 75";
 		rLen = 0;
-		rLoc = 1599;
+		rLoc = 1786;
 		rType = 0;
 		vrLen = 843;
 		vrLoc = 1151;
@@ -396,7 +400,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 52";
 		rLen = 0;
-		rLoc = 1305;
+		rLoc = 1494;
 		rType = 0;
 		vrLen = 729;
 		vrLoc = 0;
@@ -416,7 +420,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 52";
 		rLen = 0;
-		rLoc = 1305;
+		rLoc = 1494;
 		rType = 0;
 		vrLen = 729;
 		vrLoc = 0;
@@ -626,7 +630,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 52";
 		rLen = 0;
-		rLoc = 1305;
+		rLoc = 1494;
 		rType = 0;
 		vrLen = 729;
 		vrLoc = 0;
@@ -656,7 +660,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 52";
 		rLen = 0;
-		rLoc = 1305;
+		rLoc = 1494;
 		rType = 0;
 		vrLen = 729;
 		vrLoc = 0;
@@ -686,7 +690,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 56";
 		rLen = 0;
-		rLoc = 1491;
+		rLoc = 1679;
 		rType = 0;
 		vrLen = 981;
 		vrLoc = 1120;
@@ -716,7 +720,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 56";
 		rLen = 0;
-		rLoc = 1491;
+		rLoc = 1679;
 		rType = 0;
 		vrLen = 981;
 		vrLoc = 1120;
@@ -740,6 +744,46 @@
 		rType = 0;
 		vrLen = 727;
 		vrLoc = 1023;
+	};
+	6614EDEC0F65E29600246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 58";
+		rLen = 0;
+		rLoc = 1713;
+		rType = 0;
+		vrLen = 1004;
+		vrLoc = 209;
+	};
+	6614EDED0F65E29600246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 56";
+		rLen = 0;
+		rLoc = 1679;
+		rType = 0;
+		vrLen = 1064;
+		vrLoc = 1041;
+	};
+	6614EDEE0F65E29600246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 58";
+		rLen = 0;
+		rLoc = 1713;
+		rType = 0;
+		vrLen = 1004;
+		vrLoc = 209;
+	};
+	6614EDEF0F65E29600246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 53";
+		rLen = 0;
+		rLoc = 1443;
+		rType = 0;
+		vrLen = 997;
+		vrLoc = 665;
 	};
 	667B6EC30F62FAB500B08D3B /* Fallout 3 Hackers Helper */ = {
 		isa = PBXExecutable;
@@ -784,7 +828,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {750, 910}}";
 			sepNavSelRange = "{1713, 0}";
-			sepNavVisRange = "{1023, 727}";
+			sepNavVisRange = "{209, 1004}";
 			sepNavWindowFrame = "{{38, 161}, {826, 691}}";
 		};
 	};
@@ -793,7 +837,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 31";
 		rLen = 0;
-		rLoc = 762;
+		rLoc = 783;
 		rType = 0;
 		vrLen = 859;
 		vrLoc = 314;
@@ -861,7 +905,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 31";
 		rLen = 0;
-		rLoc = 762;
+		rLoc = 783;
 		rType = 0;
 		vrLen = 859;
 		vrLoc = 314;
@@ -968,9 +1012,9 @@
 	};
 	66BECC6A0F63D567009494AF /* WordOutline.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {722, 1092}}";
-			sepNavSelRange = "{1491, 0}";
-			sepNavVisRange = "{1120, 981}";
+			sepNavIntBoundsRect = "{{0, 0}, {722, 1162}}";
+			sepNavSelRange = "{1443, 0}";
+			sepNavVisRange = "{665, 997}";
 			sepNavWindowFrame = "{{15, 182}, {826, 691}}";
 		};
 	};

@@ -273,7 +273,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
+									<integer>3</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -316,7 +316,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Fallout3Controller.rb</string>
+								<string>WordOutline.rb</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,18 +324,18 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Fallout3Controller.rb</string>
+										<string>WordOutline.rb</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>6614EDE80F65187E00246C6B</string>
+										<string>6614EDEF0F65E29600246C6B</string>
 										<key>history</key>
 										<array>
 											<string>6690D8B70F6502C2003599D7</string>
 											<string>6690D8B90F6502C2003599D7</string>
 											<string>6614ED710F65094300246C6B</string>
-											<string>6614EDE10F65182B00246C6B</string>
-											<string>6614EDE20F65182B00246C6B</string>
+											<string>6614EDEC0F65E29600246C6B</string>
+											<string>6614EDED0F65E29600246C6B</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -358,6 +358,7 @@
 											<string>6614EDDC0F65164500246C6B</string>
 											<string>6614EDE30F65182B00246C6B</string>
 											<string>6614EDE40F65182B00246C6B</string>
+											<string>6614EDEE0F65E29600246C6B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -551,8 +552,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>6614EDE60F65182B00246C6B</string>
-		<string>6614EDE70F65182B00246C6B</string>
 		<string>6614ED8B0F650A3400246C6B</string>
 		<string>6614ED8C0F650A3400246C6B</string>
 		<string>1CD10A99069EF8BA00B06720</string>
