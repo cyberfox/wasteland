@@ -20,6 +20,7 @@ class WordOutline
     @depth = deep_map(word_hash)
     puts @depth.inspect
     @hash = word_hash
+    @pair_cache = {}
   end
 
   # Possible items...  nil, Pair.new(key, {hash}), Pair.new(key, string)
@@ -40,23 +41,27 @@ class WordOutline
 
   # Return the actual child, not the child that will be used for display.
   def outlineView(view, child:index, ofItem:item)
-#    puts "child: #{index.inspect}, #{item.inspect}"
-    return Pair.new(@hash.keys[index], @depth[@hash.keys[index]]) if item.nil?
+    puts "child: #{index.inspect}, #{item.inspect}"
+    @pair_cache[item] = {} if @pair_cache[item].nil?
+    @pair_cache[item][index] ||= Pair.new(@hash.keys[index], @depth[@hash.keys[index]]) if item.nil?
     if(item.is_a?(Pair))
-      return item.value if item.value.is_a?(String)
-      key = item.value.keys[index]
-      return Pair.new(key, item.value[key])
+      if item.value.is_a?(String)
+        @pair_cache[item][index] = item.value
+      else
+        key = item.value.keys[index]
+        @pair_cache[item][index] = Pair.new(key, item.value[key])
+      end
     end
-    return nil
+    return @pair_cache[item][index]
   end
 
   def outlineView(view, objectValueForTableColumn:tableColumn, byItem:item)
-#    puts "oVFTC: #{tableColumn.inspect}, #{item.inspect}, #{item.class}"
+    puts "oVFTC: #{tableColumn.inspect}, #{item.inspect}, #{item.class}"
     result = item
     puts __LINE__
     result = item.key if item.is_a?(Pair)
     puts __LINE__
-#    puts "oVFTC returning: #{result.inspect}"
+    puts "oVFTC returning: #{result.inspect}"
     return result
   end
 
