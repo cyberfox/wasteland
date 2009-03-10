@@ -35,13 +35,13 @@ class WordOutline
   # Return the actual child, not the child that will be used for display.
   def outlineView(view, child:index, ofItem:item)
     @pair_cache[item] = {} if @pair_cache[item].nil?
-    @pair_cache[item][index] ||= Pair.new(@hash.keys[index], @depth[@hash.keys[index]]) if item.nil?
+    @pair_cache[item][index] ||= Pair.new(@hash.keys.sort[index], @depth[@hash.keys.sort[index]]) if item.nil?
 
     if(item.is_a?(Pair))
       if item.value.is_a?(String)
         @pair_cache[item][index] = item.value
       else
-        key = item.value.keys[index]
+        key = item.value.keys.sort[index]
         @pair_cache[item][index] = Pair.new(key, item.value[key])
       end
     end
