@@ -3,7 +3,7 @@
 #  Fallout 3 Hackers Helper
 #
 #  Created by Morgan Schweers on 3/8/09.
-#  Copyright (c) 2009 __MyCompanyName__. All rights reserved.
+#  Copyright (c) 2009 CyberFOX Software, Inc. All rights reserved.
 #
 
 class WordOutline
