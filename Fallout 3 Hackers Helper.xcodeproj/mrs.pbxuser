@@ -106,6 +106,58 @@
 			6614EDED0F65E29600246C6B /* PBXTextBookmark */ = 6614EDED0F65E29600246C6B /* PBXTextBookmark */;
 			6614EDEE0F65E29600246C6B /* PBXTextBookmark */ = 6614EDEE0F65E29600246C6B /* PBXTextBookmark */;
 			6614EDEF0F65E29600246C6B /* PBXTextBookmark */ = 6614EDEF0F65E29600246C6B /* PBXTextBookmark */;
+			6614EDF10F65E78800246C6B /* PBXTextBookmark */ = 6614EDF10F65E78800246C6B /* PBXTextBookmark */;
+			6614EDF20F65E78800246C6B /* PBXTextBookmark */ = 6614EDF20F65E78800246C6B /* PBXTextBookmark */;
+			6614EDF30F65E78800246C6B /* PBXTextBookmark */ = 6614EDF30F65E78800246C6B /* PBXTextBookmark */;
+			6614EDF40F65E78800246C6B /* PBXTextBookmark */ = 6614EDF40F65E78800246C6B /* PBXTextBookmark */;
+			6614EDF50F65E78800246C6B /* PBXTextBookmark */ = 6614EDF50F65E78800246C6B /* PBXTextBookmark */;
+			6614EDF60F65E78800246C6B /* PBXTextBookmark */ = 6614EDF60F65E78800246C6B /* PBXTextBookmark */;
+			6614EDF70F65E78800246C6B /* PBXTextBookmark */ = 6614EDF70F65E78800246C6B /* PBXTextBookmark */;
+			6614EDF80F65E78800246C6B /* PBXTextBookmark */ = 6614EDF80F65E78800246C6B /* PBXTextBookmark */;
+			6614EDF90F65E8F000246C6B /* PBXTextBookmark */ = 6614EDF90F65E8F000246C6B /* PBXTextBookmark */;
+			6614EDFA0F65E8F000246C6B /* PBXTextBookmark */ = 6614EDFA0F65E8F000246C6B /* PBXTextBookmark */;
+			6614EDFB0F65E8F000246C6B /* PBXTextBookmark */ = 6614EDFB0F65E8F000246C6B /* PBXTextBookmark */;
+			6614EDFC0F65E8F000246C6B /* PBXTextBookmark */ = 6614EDFC0F65E8F000246C6B /* PBXTextBookmark */;
+			6614EDFD0F65E8F000246C6B /* PBXTextBookmark */ = 6614EDFD0F65E8F000246C6B /* PBXTextBookmark */;
+			6614EDFE0F65E8F000246C6B /* PBXTextBookmark */ = 6614EDFE0F65E8F000246C6B /* PBXTextBookmark */;
+			6614EDFF0F65E8F000246C6B /* PBXTextBookmark */ = 6614EDFF0F65E8F000246C6B /* PBXTextBookmark */;
+			6614EE020F65E94400246C6B /* PBXTextBookmark */ = 6614EE020F65E94400246C6B /* PBXTextBookmark */;
+			6614EE040F65E95B00246C6B /* PBXTextBookmark */ = 6614EE040F65E95B00246C6B /* PBXTextBookmark */;
+			6614EE060F65E96A00246C6B /* PBXTextBookmark */ = 6614EE060F65E96A00246C6B /* PBXTextBookmark */;
+			6614EE080F65E97A00246C6B /* PBXTextBookmark */ = 6614EE080F65E97A00246C6B /* PBXTextBookmark */;
+			6614EE0B0F65EA0000246C6B /* PBXTextBookmark */ = 6614EE0B0F65EA0000246C6B /* PBXTextBookmark */;
+			6614EE0D0F65EA0E00246C6B /* PBXTextBookmark */ = 6614EE0D0F65EA0E00246C6B /* PBXTextBookmark */;
+			6614EE0E0F65EA2C00246C6B /* PBXTextBookmark */ = 6614EE0E0F65EA2C00246C6B /* PBXTextBookmark */;
+			6614EE110F65EB6500246C6B /* PBXTextBookmark */ = 6614EE110F65EB6500246C6B /* PBXTextBookmark */;
+			6614EE120F65EB6500246C6B /* PBXTextBookmark */ = 6614EE120F65EB6500246C6B /* PBXTextBookmark */;
+			6614EE130F65EB6500246C6B /* PBXTextBookmark */ = 6614EE130F65EB6500246C6B /* PBXTextBookmark */;
+			6614EE140F65EB6500246C6B /* PBXTextBookmark */ = 6614EE140F65EB6500246C6B /* PBXTextBookmark */;
+			6614EE150F65EB6500246C6B /* PBXTextBookmark */ = 6614EE150F65EB6500246C6B /* PBXTextBookmark */;
+			6614EE160F65EB6500246C6B /* PBXTextBookmark */ = 6614EE160F65EB6500246C6B /* PBXTextBookmark */;
+			6614EE180F65EBEE00246C6B /* PBXTextBookmark */ = 6614EE180F65EBEE00246C6B /* PBXTextBookmark */;
+			6614EE190F65EBEE00246C6B /* PBXTextBookmark */ = 6614EE190F65EBEE00246C6B /* PBXTextBookmark */;
+			6614EE1A0F65EBEE00246C6B /* PBXTextBookmark */ = 6614EE1A0F65EBEE00246C6B /* PBXTextBookmark */;
+			6614EE1B0F65EBEE00246C6B /* PBXTextBookmark */ = 6614EE1B0F65EBEE00246C6B /* PBXTextBookmark */;
+			6614EE1D0F65ED9500246C6B /* PBXTextBookmark */ = 6614EE1D0F65ED9500246C6B /* PBXTextBookmark */;
+			6614EE1F0F65EE3B00246C6B /* PBXTextBookmark */ = 6614EE1F0F65EE3B00246C6B /* PBXTextBookmark */;
+			6614EE210F65EE9100246C6B /* PBXTextBookmark */ = 6614EE210F65EE9100246C6B /* PBXTextBookmark */;
+			6614EE230F65EF3800246C6B /* PBXTextBookmark */ = 6614EE230F65EF3800246C6B /* PBXTextBookmark */;
+			6614EE250F65EF5800246C6B /* PBXTextBookmark */ = 6614EE250F65EF5800246C6B /* PBXTextBookmark */;
+			6614EE270F65EF6700246C6B /* PBXTextBookmark */ = 6614EE270F65EF6700246C6B /* PBXTextBookmark */;
+			6614EE290F65EFD000246C6B /* PBXTextBookmark */ = 6614EE290F65EFD000246C6B /* PBXTextBookmark */;
+			6614EE2B0F65EFF700246C6B /* PBXTextBookmark */ = 6614EE2B0F65EFF700246C6B /* PBXTextBookmark */;
+			6614EE2D0F65F02900246C6B /* PBXTextBookmark */ = 6614EE2D0F65F02900246C6B /* PBXTextBookmark */;
+			6614EE300F65F0D100246C6B /* PBXTextBookmark */ = 6614EE300F65F0D100246C6B /* PBXTextBookmark */;
+			6614EE330F65F10E00246C6B /* PBXTextBookmark */ = 6614EE330F65F10E00246C6B /* PBXTextBookmark */;
+			6614EE360F65F16400246C6B /* PBXTextBookmark */ = 6614EE360F65F16400246C6B /* PBXTextBookmark */;
+			6614EE370F65F16400246C6B /* PBXTextBookmark */ = 6614EE370F65F16400246C6B /* PBXTextBookmark */;
+			6614EE380F65F16400246C6B /* PBXTextBookmark */ = 6614EE380F65F16400246C6B /* PBXTextBookmark */;
+			6614EE390F65F16400246C6B /* PBXTextBookmark */ = 6614EE390F65F16400246C6B /* PBXTextBookmark */;
+			6614EE3A0F65F16400246C6B /* PBXTextBookmark */ = 6614EE3A0F65F16400246C6B /* PBXTextBookmark */;
+			6614EE3D0F65F2BB00246C6B /* PBXTextBookmark */ = 6614EE3D0F65F2BB00246C6B /* PBXTextBookmark */;
+			6614EE3E0F65F2BB00246C6B /* PBXTextBookmark */ = 6614EE3E0F65F2BB00246C6B /* PBXTextBookmark */;
+			6614EE3F0F65F2BB00246C6B /* PBXTextBookmark */ = 6614EE3F0F65F2BB00246C6B /* PBXTextBookmark */;
+			6614EE400F65F2BB00246C6B /* PBXTextBookmark */ = 6614EE400F65F2BB00246C6B /* PBXTextBookmark */;
 			6690D8B50F6502C2003599D7 = 6690D8B50F6502C2003599D7 /* PBXTextBookmark */;
 			6690D8B60F6502C2003599D7 = 6690D8B60F6502C2003599D7 /* PBXTextBookmark */;
 			6690D8B70F6502C2003599D7 = 6690D8B70F6502C2003599D7 /* PBXTextBookmark */;
@@ -140,7 +192,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 59";
 		rLen = 0;
-		rLoc = 1750;
+		rLoc = 2345;
 		rType = 0;
 		vrLen = 827;
 		vrLoc = 923;
@@ -150,7 +202,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 31";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 687;
 		rType = 0;
 		vrLen = 910;
 		vrLoc = 313;
@@ -170,7 +222,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 31";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 687;
 		rType = 0;
 		vrLen = 910;
 		vrLoc = 313;
@@ -180,7 +232,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 59";
 		rLen = 0;
-		rLoc = 1750;
+		rLoc = 2345;
 		rType = 0;
 		vrLen = 827;
 		vrLoc = 923;
@@ -190,7 +242,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 31";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 687;
 		rType = 0;
 		vrLen = 842;
 		vrLoc = 313;
@@ -200,7 +252,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 59";
 		rLen = 0;
-		rLoc = 1750;
+		rLoc = 2345;
 		rType = 0;
 		vrLen = 827;
 		vrLoc = 923;
@@ -210,7 +262,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 31";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 687;
 		rType = 0;
 		vrLen = 866;
 		vrLoc = 307;
@@ -220,7 +272,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 31";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 687;
 		rType = 0;
 		vrLen = 842;
 		vrLoc = 313;
@@ -230,7 +282,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 59";
 		rLen = 0;
-		rLoc = 1750;
+		rLoc = 2345;
 		rType = 0;
 		vrLen = 827;
 		vrLoc = 923;
@@ -240,7 +292,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 61";
 		rLen = 0;
-		rLoc = 1721;
+		rLoc = 1472;
 		rType = 0;
 		vrLen = 909;
 		vrLoc = 969;
@@ -250,7 +302,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 59";
 		rLen = 0;
-		rLoc = 1750;
+		rLoc = 2345;
 		rType = 0;
 		vrLen = 727;
 		vrLoc = 1023;
@@ -260,7 +312,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 37";
 		rLen = 0;
-		rLoc = 774;
+		rLoc = 687;
 		rType = 0;
 		vrLen = 940;
 		vrLoc = 1245;
@@ -270,7 +322,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 37";
 		rLen = 0;
-		rLoc = 774;
+		rLoc = 687;
 		rType = 0;
 		vrLen = 1004;
 		vrLoc = 1245;
@@ -280,7 +332,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 59";
 		rLen = 0;
-		rLoc = 1750;
+		rLoc = 2345;
 		rType = 0;
 		vrLen = 727;
 		vrLoc = 1023;
@@ -290,7 +342,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 67";
 		rLen = 0;
-		rLoc = 1571;
+		rLoc = 1433;
 		rType = 0;
 		vrLen = 1018;
 		vrLoc = 1166;
@@ -300,7 +352,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 14";
 		rLen = 0;
-		rLoc = 290;
+		rLoc = 295;
 		rType = 0;
 		vrLen = 688;
 		vrLoc = 0;
@@ -310,7 +362,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 67";
 		rLen = 0;
-		rLoc = 1571;
+		rLoc = 1433;
 		rType = 0;
 		vrLen = 1037;
 		vrLoc = 1151;
@@ -320,7 +372,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 67";
 		rLen = 0;
-		rLoc = 1571;
+		rLoc = 1433;
 		rType = 0;
 		vrLen = 934;
 		vrLoc = 1151;
@@ -330,7 +382,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 75";
 		rLen = 0;
-		rLoc = 1786;
+		rLoc = 1472;
 		rType = 0;
 		vrLen = 843;
 		vrLoc = 1151;
@@ -340,7 +392,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 75";
 		rLen = 0;
-		rLoc = 1786;
+		rLoc = 1472;
 		rType = 0;
 		vrLen = 976;
 		vrLoc = 1151;
@@ -350,7 +402,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 59";
 		rLen = 0;
-		rLoc = 1750;
+		rLoc = 2345;
 		rType = 0;
 		vrLen = 727;
 		vrLoc = 1023;
@@ -360,7 +412,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 75";
 		rLen = 0;
-		rLoc = 1786;
+		rLoc = 1472;
 		rType = 0;
 		vrLen = 825;
 		vrLoc = 1169;
@@ -370,7 +422,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 75";
 		rLen = 0;
-		rLoc = 1786;
+		rLoc = 1472;
 		rType = 0;
 		vrLen = 843;
 		vrLoc = 1151;
@@ -380,7 +432,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 59";
 		rLen = 0;
-		rLoc = 1750;
+		rLoc = 2345;
 		rType = 0;
 		vrLen = 727;
 		vrLoc = 1023;
@@ -390,7 +442,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 17";
 		rLen = 0;
-		rLoc = 305;
+		rLoc = 310;
 		rType = 0;
 		vrLen = 713;
 		vrLoc = 0;
@@ -400,7 +452,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 52";
 		rLen = 0;
-		rLoc = 1494;
+		rLoc = 1356;
 		rType = 0;
 		vrLen = 729;
 		vrLoc = 0;
@@ -410,7 +462,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 59";
 		rLen = 0;
-		rLoc = 1750;
+		rLoc = 2345;
 		rType = 0;
 		vrLen = 727;
 		vrLoc = 1023;
@@ -420,7 +472,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 52";
 		rLen = 0;
-		rLoc = 1494;
+		rLoc = 1356;
 		rType = 0;
 		vrLen = 729;
 		vrLoc = 0;
@@ -430,7 +482,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 20";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 809;
 		vrLoc = 0;
@@ -440,7 +492,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 21";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 704;
 		vrLoc = 0;
@@ -450,7 +502,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 13";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 757;
 		vrLoc = 0;
@@ -460,7 +512,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 13";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 754;
 		vrLoc = 0;
@@ -470,7 +522,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 13";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 0;
@@ -480,7 +532,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 13";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 0;
@@ -490,7 +542,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 14";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 707;
 		vrLoc = 0;
@@ -500,7 +552,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 13";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 711;
 		vrLoc = 0;
@@ -510,7 +562,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 13";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 707;
 		vrLoc = 0;
@@ -520,7 +572,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 13";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 750;
 		vrLoc = 0;
@@ -530,7 +582,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 13";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 762;
 		vrLoc = 0;
@@ -540,7 +592,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 22";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 707;
 		vrLoc = 0;
@@ -550,7 +602,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 22";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 711;
 		vrLoc = 0;
@@ -560,7 +612,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 13";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 865;
 		vrLoc = 0;
@@ -570,7 +622,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 14";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 986;
 		vrLoc = 0;
@@ -580,7 +632,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 14";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 962;
 		vrLoc = 0;
@@ -590,7 +642,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 14";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 978;
 		vrLoc = 0;
@@ -600,7 +652,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 14";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 965;
 		vrLoc = 0;
@@ -610,7 +662,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 14";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 949;
 		vrLoc = 0;
@@ -620,7 +672,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 14";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 932;
 		vrLoc = 0;
@@ -630,7 +682,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 52";
 		rLen = 0;
-		rLoc = 1494;
+		rLoc = 1356;
 		rType = 0;
 		vrLen = 729;
 		vrLoc = 0;
@@ -640,7 +692,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 14";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 898;
 		vrLoc = 0;
@@ -650,7 +702,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 14";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 932;
 		vrLoc = 0;
@@ -660,7 +712,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 52";
 		rLen = 0;
-		rLoc = 1494;
+		rLoc = 1356;
 		rType = 0;
 		vrLen = 729;
 		vrLoc = 0;
@@ -670,7 +722,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 13";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 853;
 		vrLoc = 0;
@@ -680,7 +732,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 13";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 865;
 		vrLoc = 0;
@@ -690,7 +742,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 56";
 		rLen = 0;
-		rLoc = 1679;
+		rLoc = 1472;
 		rType = 0;
 		vrLen = 981;
 		vrLoc = 1120;
@@ -700,7 +752,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 53";
 		rLen = 0;
-		rLoc = 1567;
+		rLoc = 1917;
 		rType = 0;
 		vrLen = 910;
 		vrLoc = 803;
@@ -710,7 +762,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 53";
 		rLen = 0;
-		rLoc = 1567;
+		rLoc = 1917;
 		rType = 0;
 		vrLen = 910;
 		vrLoc = 803;
@@ -720,7 +772,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 56";
 		rLen = 0;
-		rLoc = 1679;
+		rLoc = 1472;
 		rType = 0;
 		vrLen = 981;
 		vrLoc = 1120;
@@ -730,7 +782,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 64";
 		rLen = 0;
-		rLoc = 1744;
+		rLoc = 2345;
 		rType = 0;
 		vrLen = 727;
 		vrLoc = 1023;
@@ -740,7 +792,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 58";
 		rLen = 0;
-		rLoc = 1713;
+		rLoc = 2345;
 		rType = 0;
 		vrLen = 727;
 		vrLoc = 1023;
@@ -750,7 +802,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 58";
 		rLen = 0;
-		rLoc = 1713;
+		rLoc = 2345;
 		rType = 0;
 		vrLen = 1004;
 		vrLoc = 209;
@@ -760,7 +812,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 56";
 		rLen = 0;
-		rLoc = 1679;
+		rLoc = 1472;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 1041;
@@ -770,7 +822,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 58";
 		rLen = 0;
-		rLoc = 1713;
+		rLoc = 2345;
 		rType = 0;
 		vrLen = 1004;
 		vrLoc = 209;
@@ -780,10 +832,530 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 53";
 		rLen = 0;
-		rLoc = 1443;
+		rLoc = 1304;
 		rType = 0;
 		vrLen = 997;
 		vrLoc = 665;
+	};
+	6614EDF10F65E78800246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 73";
+		rLen = 0;
+		rLoc = 1970;
+		rType = 0;
+		vrLen = 941;
+		vrLoc = 174;
+	};
+	6614EDF20F65E78800246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 59";
+		rLen = 0;
+		rLoc = 2345;
+		rType = 0;
+		vrLen = 885;
+		vrLoc = 865;
+	};
+	6614EDF30F65E78800246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 53";
+		rLen = 0;
+		rLoc = 1304;
+		rType = 0;
+		vrLen = 997;
+		vrLoc = 665;
+	};
+	6614EDF40F65E78800246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 59";
+		rLen = 0;
+		rLoc = 2345;
+		rType = 0;
+		vrLen = 727;
+		vrLoc = 1023;
+	};
+	6614EDF50F65E78800246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 73";
+		rLen = 0;
+		rLoc = 1970;
+		rType = 0;
+		vrLen = 941;
+		vrLoc = 174;
+	};
+	6614EDF60F65E78800246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 59";
+		rLen = 0;
+		rLoc = 2345;
+		rType = 0;
+		vrLen = 885;
+		vrLoc = 865;
+	};
+	6614EDF70F65E78800246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 73";
+		rLen = 0;
+		rLoc = 1970;
+		rType = 0;
+		vrLen = 941;
+		vrLoc = 174;
+	};
+	6614EDF80F65E78800246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 59";
+		rLen = 0;
+		rLoc = 2345;
+		rType = 0;
+		vrLen = 885;
+		vrLoc = 865;
+	};
+	6614EDF90F65E8F000246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 66";
+		rLen = 0;
+		rLoc = 1878;
+		rType = 0;
+		vrLen = 895;
+		vrLoc = 1055;
+	};
+	6614EDFA0F65E8F000246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 48";
+		rLen = 0;
+		rLoc = 1917;
+		rType = 0;
+		vrLen = 1045;
+		vrLoc = 669;
+	};
+	6614EDFB0F65E8F000246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 47";
+		rLen = 0;
+		rLoc = 1916;
+		rType = 0;
+		vrLen = 993;
+		vrLoc = 721;
+	};
+	6614EDFC0F65E8F000246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 15";
+		rLen = 0;
+		rLoc = 303;
+		rType = 0;
+		vrLen = 941;
+		vrLoc = 174;
+	};
+	6614EDFD0F65E8F000246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 48";
+		rLen = 0;
+		rLoc = 1917;
+		rType = 0;
+		vrLen = 993;
+		vrLoc = 721;
+	};
+	6614EDFE0F65E8F000246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 66";
+		rLen = 0;
+		rLoc = 1878;
+		rType = 0;
+		vrLen = 895;
+		vrLoc = 1055;
+	};
+	6614EDFF0F65E8F000246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 16";
+		rLen = 0;
+		rLoc = 860;
+		rType = 0;
+		vrLen = 888;
+		vrLoc = 0;
+	};
+	6614EE020F65E94400246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 16";
+		rLen = 0;
+		rLoc = 860;
+		rType = 0;
+		vrLen = 916;
+		vrLoc = 0;
+	};
+	6614EE040F65E95B00246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 16";
+		rLen = 0;
+		rLoc = 762;
+		rType = 0;
+		vrLen = 918;
+		vrLoc = 0;
+	};
+	6614EE060F65E96A00246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 16";
+		rLen = 0;
+		rLoc = 762;
+		rType = 0;
+		vrLen = 922;
+		vrLoc = 0;
+	};
+	6614EE080F65E97A00246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 16";
+		rLen = 0;
+		rLoc = 762;
+		rType = 0;
+		vrLen = 901;
+		vrLoc = 0;
+	};
+	6614EE0B0F65EA0000246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 13";
+		rLen = 0;
+		rLoc = 431;
+		rType = 0;
+		vrLen = 885;
+		vrLoc = 0;
+	};
+	6614EE0D0F65EA0E00246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 17";
+		rLen = 0;
+		rLoc = 762;
+		rType = 0;
+		vrLen = 886;
+		vrLoc = 0;
+	};
+	6614EE0E0F65EA2C00246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 18";
+		rLen = 0;
+		rLoc = 860;
+		rType = 0;
+		vrLen = 1050;
+		vrLoc = 98;
+	};
+	6614EE110F65EB6500246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 14";
+		rLen = 0;
+		rLoc = 734;
+		rType = 0;
+		vrLen = 970;
+		vrLoc = 98;
+	};
+	6614EE120F65EB6500246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 19";
+		rLen = 0;
+		rLoc = 339;
+		rType = 0;
+		vrLen = 750;
+		vrLoc = 0;
+	};
+	6614EE130F65EB6500246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 20";
+		rLen = 0;
+		rLoc = 909;
+		rType = 0;
+		vrLen = 983;
+		vrLoc = 98;
+	};
+	6614EE140F65EB6500246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 19";
+		rLen = 0;
+		rLoc = 339;
+		rType = 0;
+		vrLen = 750;
+		vrLoc = 0;
+	};
+	6614EE150F65EB6500246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 14";
+		rLen = 0;
+		rLoc = 734;
+		rType = 0;
+		vrLen = 970;
+		vrLoc = 98;
+	};
+	6614EE160F65EB6500246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 56";
+		rLen = 0;
+		rLoc = 1479;
+		rType = 0;
+		vrLen = 768;
+		vrLoc = 2;
+	};
+	6614EE180F65EBEE00246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 56";
+		rLen = 0;
+		rLoc = 1479;
+		rType = 0;
+		vrLen = 768;
+		vrLoc = 2;
+	};
+	6614EE190F65EBEE00246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 14";
+		rLen = 0;
+		rLoc = 734;
+		rType = 0;
+		vrLen = 936;
+		vrLoc = 98;
+	};
+	6614EE1A0F65EBEE00246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 56";
+		rLen = 0;
+		rLoc = 1479;
+		rType = 0;
+		vrLen = 768;
+		vrLoc = 2;
+	};
+	6614EE1B0F65EBEE00246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 18";
+		rLen = 0;
+		rLoc = 762;
+		rType = 0;
+		vrLen = 985;
+		vrLoc = 288;
+	};
+	6614EE1D0F65ED9500246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 5";
+		rLen = 0;
+		rLoc = 94;
+		rType = 0;
+		vrLen = 934;
+		vrLoc = 0;
+	};
+	6614EE1F0F65EE3B00246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 13";
+		rLen = 0;
+		rLoc = 452;
+		rType = 0;
+		vrLen = 897;
+		vrLoc = 0;
+	};
+	6614EE210F65EE9100246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 13";
+		rLen = 0;
+		rLoc = 452;
+		rType = 0;
+		vrLen = 890;
+		vrLoc = 0;
+	};
+	6614EE230F65EF3800246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 13";
+		rLen = 0;
+		rLoc = 435;
+		rType = 0;
+		vrLen = 909;
+		vrLoc = 0;
+	};
+	6614EE250F65EF5800246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 1";
+		rLen = 0;
+		rLoc = 36;
+		rType = 0;
+		vrLen = 925;
+		vrLoc = 0;
+	};
+	6614EE270F65EF6700246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 14";
+		rLen = 0;
+		rLoc = 452;
+		rType = 0;
+		vrLen = 890;
+		vrLoc = 0;
+	};
+	6614EE290F65EFD000246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 39";
+		rLen = 0;
+		rLoc = 762;
+		rType = 0;
+		vrLen = 907;
+		vrLoc = 663;
+	};
+	6614EE2B0F65EFF700246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 40";
+		rLen = 0;
+		rLoc = 824;
+		rType = 0;
+		vrLen = 885;
+		vrLoc = 663;
+	};
+	6614EE2D0F65F02900246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 14";
+		rLen = 0;
+		rLoc = 435;
+		rType = 0;
+		vrLen = 660;
+		vrLoc = 0;
+	};
+	6614EE300F65F0D100246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 48";
+		rLen = 0;
+		rLoc = 1106;
+		rType = 0;
+		vrLen = 609;
+		vrLoc = 588;
+	};
+	6614EE330F65F10E00246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 48";
+		rLen = 0;
+		rLoc = 1105;
+		rType = 0;
+		vrLen = 610;
+		vrLoc = 561;
+	};
+	6614EE360F65F16400246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 9";
+		rLen = 0;
+		rLoc = 161;
+		rType = 0;
+		vrLen = 781;
+		vrLoc = 0;
+	};
+	6614EE370F65F16400246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 91";
+		rLen = 0;
+		rLoc = 2345;
+		rType = 0;
+		vrLen = 1000;
+		vrLoc = 1345;
+	};
+	6614EE380F65F16400246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 91";
+		rLen = 0;
+		rLoc = 2345;
+		rType = 0;
+		vrLen = 1000;
+		vrLoc = 1345;
+	};
+	6614EE390F65F16400246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 9";
+		rLen = 0;
+		rLoc = 161;
+		rType = 0;
+		vrLen = 781;
+		vrLoc = 0;
+	};
+	6614EE3A0F65F16400246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 91";
+		rLen = 0;
+		rLoc = 2345;
+		rType = 0;
+		vrLen = 900;
+		vrLoc = 669;
+	};
+	6614EE3D0F65F2BB00246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 38";
+		rLen = 0;
+		rLoc = 761;
+		rType = 0;
+		vrLen = 900;
+		vrLoc = 669;
+	};
+	6614EE3E0F65F2BB00246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 9";
+		rLen = 0;
+		rLoc = 161;
+		rType = 0;
+		vrLen = 781;
+		vrLoc = 0;
+	};
+	6614EE3F0F65F2BB00246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
+		name = "Fallout3Controller.rb: 38";
+		rLen = 0;
+		rLoc = 761;
+		rType = 0;
+		vrLen = 900;
+		vrLoc = 669;
+	};
+	6614EE400F65F2BB00246C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
+		name = "WordOutline.rb: 44";
+		rLen = 0;
+		rLoc = 1228;
+		rType = 0;
+		vrLen = 1004;
+		vrLoc = 310;
 	};
 	667B6EC30F62FAB500B08D3B /* Fallout 3 Hackers Helper */ = {
 		isa = PBXExecutable;
@@ -826,9 +1398,9 @@
 	};
 	667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {750, 910}}";
-			sepNavSelRange = "{1713, 0}";
-			sepNavVisRange = "{209, 1004}";
+			sepNavIntBoundsRect = "{{0, 0}, {750, 1274}}";
+			sepNavSelRange = "{761, 0}";
+			sepNavVisRange = "{669, 900}";
 			sepNavWindowFrame = "{{38, 161}, {826, 691}}";
 		};
 	};
@@ -837,7 +1409,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 31";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 687;
 		rType = 0;
 		vrLen = 859;
 		vrLoc = 314;
@@ -847,7 +1419,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 59";
 		rLen = 0;
-		rLoc = 1750;
+		rLoc = 2345;
 		rType = 0;
 		vrLen = 727;
 		vrLoc = 1023;
@@ -905,7 +1477,7 @@
 		fRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */;
 		name = "WordOutline.rb: 31";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 687;
 		rType = 0;
 		vrLen = 859;
 		vrLoc = 314;
@@ -915,7 +1487,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 59";
 		rLen = 0;
-		rLoc = 1750;
+		rLoc = 2345;
 		rType = 0;
 		vrLen = 727;
 		vrLoc = 1023;
@@ -1012,9 +1584,9 @@
 	};
 	66BECC6A0F63D567009494AF /* WordOutline.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {722, 1162}}";
-			sepNavSelRange = "{1443, 0}";
-			sepNavVisRange = "{665, 997}";
+			sepNavIntBoundsRect = "{{0, 0}, {722, 1050}}";
+			sepNavSelRange = "{1228, 0}";
+			sepNavVisRange = "{310, 1004}";
 			sepNavWindowFrame = "{{15, 182}, {826, 691}}";
 		};
 	};
@@ -1023,7 +1595,7 @@
 		fRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */;
 		name = "Fallout3Controller.rb: 101";
 		rLen = 0;
-		rLoc = 1750;
+		rLoc = 2345;
 		rType = 0;
 		vrLen = 898;
 		vrLoc = 0;
