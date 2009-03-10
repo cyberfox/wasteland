@@ -15,35 +15,28 @@ class WordOutline
     end
   end
 
-  def initialize(words, word_hash)
-    @words = words
-    @depth = deep_map(word_hash)
-    puts @depth.inspect
-    @hash = word_hash
+  def initialize(word_hash)
+    @hash = word_hash || {}
+    @depth = deep_map(@hash) unless @hash.empty?
     @pair_cache = {}
   end
 
   # Possible items...  nil, Pair.new(key, {hash}), Pair.new(key, string)
   def outlineView(view, numberOfChildrenOfItem:item)
-#    puts "nOCOI: #{item.inspect}"
     return @hash.length if item.nil?
-    if item.is_a?(Pair)
-      last = item.value
-      return 1 if last.is_a?(String)
-      return last.length
-    end
+    return item.value.is_a?(String) ? 1 : item.value.length if item.is_a?(Pair)
     return 0
   end
 
   def outlineView(view, isItemExpandable:item)
-    return item.is_a?(Pair)
+    item.is_a?(Pair)
   end
 
   # Return the actual child, not the child that will be used for display.
   def outlineView(view, child:index, ofItem:item)
-    puts "child: #{index.inspect}, #{item.inspect}"
     @pair_cache[item] = {} if @pair_cache[item].nil?
     @pair_cache[item][index] ||= Pair.new(@hash.keys[index], @depth[@hash.keys[index]]) if item.nil?
+
     if(item.is_a?(Pair))
       if item.value.is_a?(String)
         @pair_cache[item][index] = item.value
@@ -52,19 +45,15 @@ class WordOutline
         @pair_cache[item][index] = Pair.new(key, item.value[key])
       end
     end
+
     return @pair_cache[item][index]
   end
 
   def outlineView(view, objectValueForTableColumn:tableColumn, byItem:item)
-    puts "oVFTC: #{tableColumn.inspect}, #{item.inspect}, #{item.class}"
-    result = item
-    puts __LINE__
-    result = item.key if item.is_a?(Pair)
-    puts __LINE__
-    puts "oVFTC returning: #{result.inspect}"
-    return result
+    item.is_a?(Pair) ? item.key : item
   end
 
+  private
   def deep_map(set)
     result = {}
     set.each do |word, hash|
