@@ -13,26 +13,7 @@ class Fallout3Controller < NSWindowController
     @textentry.setFont(NSFont.userFixedPitchFontOfSize(NSFont.smallSystemFontSize))
     @empty_string = ''.with_attributes
     @empty_outline = WordOutline.new(nil)
-    @sample_data = <<EOSAMPLE
-settling
-sentence
-sundries
-pristine
-sinister
-constant
-sneaking
-ambition
-scouting
-starting
-shooting
-junktown
-contains
-subjects
-trusting
-lunatics
-jonathan
-EOSAMPLE
-    @sample_data = @sample_data.with_attributes
+    @sample_data = SAMPLE_DATA.with_attributes
   end
 
   def clear(sender)
@@ -87,4 +68,24 @@ EOSAMPLE
     substring = editor.attributedSubstringFromRange(selection)
     @result.stringValue = result_set[substring.string].inspect
   end
+
+  SAMPLE_DATA = <<EOSAMPLE
+settling
+sentence
+sundries
+pristine
+sinister
+constant
+sneaking
+ambition
+scouting
+starting
+shooting
+junktown
+contains
+subjects
+trusting
+lunatics
+jonathan
+EOSAMPLE
 end
