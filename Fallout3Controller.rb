@@ -1,3 +1,4 @@
+require 'hotcocoa/attributed_string'
 #
 #  Fallout3Controller.rb
 #  Fallout 3 Hackers Helper
@@ -10,8 +11,28 @@ class Fallout3Controller < NSWindowController
   attr_writer :textentry, :button, :result, :window, :table
   def awakeFromNib
     @textentry.setFont(NSFont.userFixedPitchFontOfSize(NSFont.smallSystemFontSize))
-    @empty_string = NSAttributedString.new
+    @empty_string = ''.with_attributes
     @empty_outline = WordOutline.new(nil)
+    @sample_data = <<EOSAMPLE
+settling
+sentence
+sundries
+pristine
+sinister
+constant
+sneaking
+ambition
+scouting
+starting
+shooting
+junktown
+contains
+subjects
+trusting
+lunatics
+jonathan
+EOSAMPLE
+    @sample_data = @sample_data.with_attributes
   end
 
   def clear(sender)
@@ -19,6 +40,12 @@ class Fallout3Controller < NSWindowController
     @table.dataSource=@empty_outline
     @table.reloadData
     @result.stringValue=''
+  end
+
+  def sample_data(sender)
+    clear(sender)
+    @textentry.textStorage.setAttributedString(@sample_data)
+    @textentry.setFont(NSFont.userFixedPitchFontOfSize(NSFont.smallSystemFontSize))
   end
 
   def analyze(sender)
@@ -61,10 +88,3 @@ class Fallout3Controller < NSWindowController
     @result.stringValue = result_set[substring.string].inspect
   end
 end
-
-#1234
-#4321
-#1245
-#2143
-#5432
-#3412
