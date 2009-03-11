@@ -10,6 +10,8 @@
 # do that here too.
 framework 'Cocoa'
 
+$LOAD_PATH.unshift File.join(NSBundle.mainBundle.privateFrameworksPath, 'MacRuby.framework/Versions/Current/usr/lib/ruby/1.9.1') 
+
 # Loading all the Ruby project files.
 dir_path = NSBundle.mainBundle.resourcePath.fileSystemRepresentation
 Dir.entries(dir_path).each do |path|
