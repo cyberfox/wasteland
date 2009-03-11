@@ -3,7 +3,7 @@
 //  Fallout 3 Hackers Helper
 //
 //  Created by Morgan Schweers on 3/7/09.
-//  Copyright __MyCompanyName__ 2009. All rights reserved.
+//  Copyright (c) CyberFOX Software, Inc., 2009. All rights reserved.
 //
 
 #import <MacRuby/MacRuby.h>
