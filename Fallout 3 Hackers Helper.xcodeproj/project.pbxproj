@@ -23,6 +23,7 @@
 /* Begin PBXBuildFile section */
 		4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */; };
 		4DE3BE140D8651D900ECA448 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE3BE130D8651D900ECA448 /* MacRuby.framework */; };
+		6659A5590F69B56C00D37688 /* Fallout3Hacker.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6659A5580F69B56B00D37688 /* Fallout3Hacker.icns */; };
 		667B6ECD0F62FB4C00B08D3B /* Fallout3Controller.rb in Resources */ = {isa = PBXBuildFile; fileRef = 667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */; };
 		66BECC6B0F63D567009494AF /* WordOutline.rb in Resources */ = {isa = PBXBuildFile; fileRef = 66BECC6A0F63D567009494AF /* WordOutline.rb */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
@@ -41,7 +42,8 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		4DE339F60D74FCDD00ADB6EE /* rb_main.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		4DE3BE130D8651D900ECA448 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = /Library/Frameworks/MacRuby.framework; sourceTree = "<absolute>"; };
-		6614EE880F660FDA00246C6B /* Fallout3HH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fallout3HH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6614EE880F660FDA00246C6B /* Fallout 3 Hackers Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fallout 3 Hackers Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6659A5580F69B56B00D37688 /* Fallout3Hacker.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Fallout3Hacker.icns; sourceTree = "<group>"; };
 		667B6ECC0F62FB4C00B08D3B /* Fallout3Controller.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Fallout3Controller.rb; sourceTree = "<group>"; };
 		66BECC6A0F63D567009494AF /* WordOutline.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = WordOutline.rb; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,7 +93,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6614EE880F660FDA00246C6B /* Fallout3HH.app */,
+				6614EE880F660FDA00246C6B /* Fallout 3 Hackers Helper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +101,7 @@
 		29B97314FDCFA39411CA2CEA /* Fallout 3 Hackers Helper */ = {
 			isa = PBXGroup;
 			children = (
+				6659A5580F69B56B00D37688 /* Fallout3Hacker.icns */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -154,7 +157,7 @@
 			name = "Fallout 3 Hackers Helper";
 			productInstallPath = "$(HOME)/Applications";
 			productName = "Fallout 3 Hackers Helper";
-			productReference = 6614EE880F660FDA00246C6B /* Fallout3HH.app */;
+			productReference = 6614EE880F660FDA00246C6B /* Fallout 3 Hackers Helper.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -185,6 +188,7 @@
 				4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */,
 				667B6ECD0F62FB4C00B08D3B /* Fallout3Controller.rb in Resources */,
 				66BECC6B0F63D567009494AF /* WordOutline.rb in Resources */,
+				6659A5590F69B56C00D37688 /* Fallout3Hacker.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
