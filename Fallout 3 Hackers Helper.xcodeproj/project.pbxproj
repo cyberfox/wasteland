@@ -206,7 +206,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "PATH=\"$PATH:/usr/local/bin\" /usr/bin/env macruby -r hotcocoa/application_builder -e \"HotCocoa::ApplicationBuilder.deploy(ARGV[0])\" $TARGET_BUILD_DIR/$PROJECT_NAME.app";
+			shellScript = "PATH=\"$PATH:/usr/local/bin\" macruby -r hotcocoa/application_builder -e \"HotCocoa::ApplicationBuilder.deploy(ARGV[0])\" $TARGET_BUILD_DIR/Fallout3HH.app\nrm -f ~/Fallout3HH.app.tar.gz\ncd $TARGET_BUILD_DIR\ntar cvzf ~/Fallout3HH.app.tar.gz Fallout3HH.app\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
