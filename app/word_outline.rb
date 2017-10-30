@@ -68,7 +68,7 @@ class WordOutline
       result[word] = {}
       hash.values.uniq.sort.each do |char_match_count|
         result_set = hash.collect {|x, y| x if y == char_match_count}.compact
-        result_set = deep_map(Fallout3Controller.get_result_set(result_set)) if(result_set.length > 1)
+        result_set = deep_map(WastelandController.get_result_set(result_set)) if(result_set.length > 1)
         result_set = result_set.first if result_set.length == 1
 
         result[word][char_match_count] = result_set

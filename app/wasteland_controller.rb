@@ -1,12 +1,12 @@
 #
-#  Fallout3Controller.rb
+#  wasteland_controller.rb
 #  Fallout 3 Hackers Helper
 #
 #  Created by Morgan Schweers on 3/7/09.
 #  Copyright (c) 2009 CyberFOX Software, Inc. All rights reserved.
 #
 
-class Fallout3Controller < NSWindowController
+class WastelandController < NSWindowController
   extend IB
   outlet :textentry, NSTextView
   outlet :result, NSTextField
@@ -57,7 +57,7 @@ class Fallout3Controller < NSWindowController
   private
   def get_words
     words = @textentry.textStorage.string.split("\n")
-    result_set = Fallout3Controller.get_result_set(words)
+    result_set = WastelandController.get_result_set(words)
     [words, result_set]
   end
 
