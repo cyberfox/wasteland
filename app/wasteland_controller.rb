@@ -6,7 +6,7 @@
 #  Copyright (c) 2009 CyberFOX Software, Inc. All rights reserved.
 #
 
-class WastelandController < NSWindowController
+class Fallout3Controller < NSWindowController
   extend IB
   outlet :textentry, NSTextView
   outlet :result, NSTextField
@@ -57,7 +57,7 @@ class WastelandController < NSWindowController
   private
   def get_words
     words = @textentry.textStorage.string.split("\n")
-    result_set = WastelandController.get_result_set(words)
+    result_set = Fallout3Controller.get_result_set(words)
     [words, result_set]
   end
 
