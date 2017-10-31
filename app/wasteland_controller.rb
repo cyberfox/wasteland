@@ -56,7 +56,7 @@ class Fallout3Controller < NSWindowController
 
   private
   def get_words
-    words = @textentry.textStorage.string.split("\n")
+    words = @textentry.textStorage.string.split.map(&:downcase)
     result_set = Fallout3Controller.get_result_set(words)
     [words, result_set]
   end
