@@ -13,6 +13,11 @@ class WordOutline
       @key = first
       @value = second
     end
+
+    def children
+      return 1 if @value.is_a? String
+      @value.length
+    end
   end
 
   # Note: pair_cache is necessary in order to consistently return the
@@ -28,23 +33,28 @@ class WordOutline
   end
 
   # Possible items...  nil, Pair.new(key, {hash}), Pair.new(key, string)
-  def outlineView(view, numberOfChildrenOfItem:item)
-    return @hash.length if item.nil?
-    return item.value.is_a?(String) ? 1 : item.value.length if item.is_a?(Pair)
-    return 0
+  def outlineView(_view, numberOfChildrenOfItem: item)
+    case item
+    when nil then @hash.length
+    when Pair then item.children
+    else 0
+    end
   end
 
   # If it's not a pair, it's a leaf node.
-  def outlineView(view, isItemExpandable:item)
+  def outlineView(_view, isItemExpandable: item)
     item.is_a?(Pair)
   end
 
   # Return the actual child, not the data that will be used for display.
-  def outlineView(view, child:index, ofItem:item)
+  def outlineView(_view, child: index, ofItem: item)
     @pair_cache[item] = {} if @pair_cache[item].nil?
-    @pair_cache[item][index] ||= Pair.new(@hash.keys.sort[index], @depth[@hash.keys.sort[index]]) if item.nil?
+    if item.nil?
+      key_word = @hash.keys.sort[index]
+      @pair_cache[item][index] ||= Pair.new(key_word, @depth[key_word])
+    end
 
-    if(item.is_a?(Pair))
+    if item.is_a?(Pair)
       if item.value.is_a?(String)
         @pair_cache[item][index] = item.value
       else
@@ -53,27 +63,28 @@ class WordOutline
       end
     end
 
-    return @pair_cache[item][index]
+    @pair_cache[item][index]
   end
 
   # Get the displayable value from the actual child node.
-  def outlineView(view, objectValueForTableColumn:tableColumn, byItem:item)
+  def outlineView(_view, objectValueForTableColumn: tableColumn, byItem: item)
     item.is_a?(Pair) ? item.key : item
   end
 
   private
-  def deep_map(set)
-    result = {}
-    set.each do |word, hash|
-      result[word] = {}
-      hash.values.uniq.sort.each do |char_match_count|
-        result_set = hash.collect {|x, y| x if y == char_match_count}.compact
-        result_set = deep_map(Fallout3Controller.get_result_set(result_set)) if(result_set.length > 1)
-        result_set = result_set.first if result_set.length == 1
 
-        result[word][char_match_count] = result_set
+  def deep_map(set)
+    {}.tap do |result|
+      set.each do |word, hash|
+        result[word] = {}
+        hash.values.uniq.sort.each do |char_match_count|
+          result_set = hash.collect { |x, y| x if y == char_match_count }.compact
+          result_set = deep_map(Fallout3Controller.get_result_set(result_set)) if result_set.length > 1
+          result_set = result_set.first if result_set.length == 1
+
+          result[word][char_match_count] = result_set
+        end
       end
     end
-    result
   end
 end
