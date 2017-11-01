@@ -20,16 +20,9 @@ class WordOutline
     end
   end
 
-  # Note: pair_cache is necessary in order to consistently return the
-  # same values for the same nodes in the outline, and prevent the GC
-  # from collecting the node.  The NSOutlineView doesn't retain the
-  # child object in a way which prevents GC, so Bad Things can (and
-  # did) happen if you don't cache your results.
-
   def initialize(word_hash)
     @hash = word_hash || {}
     @depth = deep_map(@hash) unless @hash.empty?
-    @pair_cache = {}
   end
 
   # Possible items...  nil, Pair.new(key, {hash}), Pair.new(key, string)
@@ -47,23 +40,18 @@ class WordOutline
   end
 
   # Return the actual child, not the data that will be used for display.
+  # Item can be: nil, Pair.
   def outlineView(_view, child: index, ofItem: item)
-    @pair_cache[item] = {} if @pair_cache[item].nil?
-    if item.nil?
-      key_word = @hash.keys.sort[index]
-      @pair_cache[item][index] ||= Pair.new(key_word, @depth[key_word])
-    end
+    base       = item.nil? ? @hash : item.value
+    next_level = item.nil? ? @depth : item.value
 
-    if item.is_a?(Pair)
-      if item.value.is_a?(String)
-        @pair_cache[item][index] = item.value
+    case base
+      when String
+        base
       else
-        key = item.value.keys.sort[index]
-        @pair_cache[item][index] = Pair.new(key, item.value[key])
-      end
+        key = base.keys.sort[index]
+        Pair.new(key, next_level[key])
     end
-
-    @pair_cache[item][index]
   end
 
   # Get the displayable value from the actual child node.
