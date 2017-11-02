@@ -34,24 +34,15 @@ class Fallout3Controller < NSWindowController
   end
 
   def analyze(sender)
-    @words = get_words
-    ws = WordSalad.new(@words)
+    ws = WordSalad.new(words)
     @outline = WordOutline.new(ws.results, ws.depth)
     @table.dataSource = @outline
-    @result.stringValue = ws.suggestions.join(', ')
+    @result.stringValue = ws.suggestions
   end
 
   private
-  def get_words
+  def words
     @textentry.textStorage.string.split.map(&:downcase)
-  end
-
-  def select(sender)
-    words, result_set = get_words
-    editor = @window.fieldEditor(true, forObject:@result)
-    selection = editor.selectedRange
-    substring = editor.attributedSubstringFromRange(selection)
-    @result.stringValue = result_set[substring.string].inspect
   end
 
   SAMPLE_DATA = <<EOSAMPLE

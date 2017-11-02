@@ -1,24 +1,23 @@
 class WordSalad
-  attr_accessor :depth, :results, :suggestions
+  attr_accessor :depth, :results
 
   def initialize(words)
     @words = words
     @results = get_result_set(@words)
+
     counts = @words.collect do |word|
       @results[word].values.uniq.length
     end
-    max = counts.max
-    @suggestions = []
-    @words.each_with_index do |word,index|
-      @suggestions << word if counts[index] == max
-    end
 
+    @suggestions = build_suggestions(counts)
     @depth = deep_map(@results)
   end
 
-  def similar(x, y)
-    ((0...(x.length)).collect {|index| x[index] == y[index]}).inject(0) {|accum, step| step ? accum+1 : accum}
+  def suggestions
+    @suggestions.join(', ')
   end
+
+  private
 
   def get_result_set(words)
     words.inject({}) do |accum, x|
@@ -26,6 +25,17 @@ class WordSalad
         subset.merge(y => similar(x, y))
       end)
     end.each {|x, y| y.delete(x)}
+  end
+
+  def similar(x, y)
+    ((0...(x.length)).collect {|index| x[index] == y[index]}).inject(0) {|accum, step| step ? accum+1 : accum}
+  end
+
+  def build_suggestions(counts)
+    max = counts.max
+    @words.select.with_index do |_, index|
+      counts[index] == max
+    end
   end
 
   def deep_map(set)
