@@ -43,25 +43,27 @@ class Fallout3Controller < NSWindowController
     @words.each_with_index do |word,index|
       suggestions << word if counts[index] == max
     end
-    @outline = WordOutline.new(@result_set)
+    @outline = WordOutline.new(@result_set, deep_map(@result_set))
     @table.dataSource = @outline
     @result.stringValue = suggestions.join(', ')
   end
 
-  def self.get_result_set(words)
-    result = words.inject({}) {|accum, x| accum.merge(x => words.inject({}) {|subset, y| subset.merge(y => similar(x,y))})}
-    result.each {|x, y| y.delete(x)}
-    result
+  def get_result_set(words)
+    words.inject({}) do |accum, x|
+      accum.merge(x => words.inject({}) do |subset, y|
+        subset.merge(y => similar(x, y))
+      end)
+    end.each {|x, y| y.delete(x)}
   end
 
   private
   def get_words
     words = @textentry.textStorage.string.split.map(&:downcase)
-    result_set = Fallout3Controller.get_result_set(words)
+    result_set = get_result_set(words)
     [words, result_set]
   end
 
-  def self.similar(x,y)
+  def similar(x, y)
     ((0...(x.length)).collect {|index| x[index] == y[index]}).inject(0) {|accum, step| step ? accum+1 : accum}
   end
 
@@ -71,6 +73,22 @@ class Fallout3Controller < NSWindowController
     selection = editor.selectedRange
     substring = editor.attributedSubstringFromRange(selection)
     @result.stringValue = result_set[substring.string].inspect
+  end
+
+  private
+  def deep_map(set)
+    {}.tap do |result|
+      set.each do |word, hash|
+        result[word] = {}
+        hash.values.uniq.sort.each do |char_match_count|
+          result_set = hash.collect {|x, y| x if y == char_match_count }.compact
+          result_set = deep_map(get_result_set(result_set)) if result_set.length > 1
+          result_set = result_set.first if result_set.length == 1
+
+          result[word][char_match_count] = result_set
+        end
+      end
+    end
   end
 
   SAMPLE_DATA = <<EOSAMPLE

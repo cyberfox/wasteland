@@ -20,9 +20,9 @@ class WordOutline
     end
   end
 
-  def initialize(word_hash)
+  def initialize(word_hash, depth = nil)
     @hash = word_hash || {}
-    @depth = deep_map(@hash) unless @hash.empty?
+    @depth = depth
   end
 
   # Possible items...  nil, Pair.new(key, {hash}), Pair.new(key, string)
@@ -57,22 +57,5 @@ class WordOutline
   # Get the displayable value from the actual child node.
   def outlineView(_view, objectValueForTableColumn: tableColumn, byItem: item)
     item.is_a?(Pair) ? item.key : item
-  end
-
-  private
-
-  def deep_map(set)
-    {}.tap do |result|
-      set.each do |word, hash|
-        result[word] = {}
-        hash.values.uniq.sort.each do |char_match_count|
-          result_set = hash.collect { |x, y| x if y == char_match_count }.compact
-          result_set = deep_map(Fallout3Controller.get_result_set(result_set)) if result_set.length > 1
-          result_set = result_set.first if result_set.length == 1
-
-          result[word][char_match_count] = result_set
-        end
-      end
-    end
   end
 end
