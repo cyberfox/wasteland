@@ -16,7 +16,7 @@ class Fallout3Controller < NSWindowController
   def awakeFromNib
     @textentry.setFont(NSFont.userFixedPitchFontOfSize(NSFont.smallSystemFontSize))
     @empty_string = ''.attrd
-    @empty_outline = WordOutline.new(nil)
+    @empty_outline = WordOutline.new
     @sample_data = SAMPLE_DATA.attrd
   end
 
@@ -35,9 +35,9 @@ class Fallout3Controller < NSWindowController
 
   def analyze(sender)
     ws = WordSalad.new(words)
-    @outline = WordOutline.new(ws.results, ws.depth)
+    @outline = WordOutline.new(ws)
     @table.dataSource = @outline
-    @result.stringValue = ws.suggestions
+    @result.stringValue = ws.friendly_suggestions
   end
 
   private

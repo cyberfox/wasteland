@@ -1,20 +1,32 @@
 class WordSalad
-  attr_accessor :depth, :results
+  attr_reader :depth, :suggestions
 
   def initialize(words)
     @words = words
-    @results = get_result_set(@words)
+    results = get_result_set(@words)
 
     counts = @words.collect do |word|
-      @results[word].values.uniq.length
+      results[word].values.uniq.length
     end
 
     @suggestions = build_suggestions(counts)
-    @depth = deep_map(@results)
+    @depth = deep_map(results)
   end
 
-  def suggestions
+  def friendly_suggestions
     @suggestions.join(', ')
+  end
+
+  def counts(word)
+    @depth[word].keys
+  end
+
+  def guess(word, similarity)
+    @depth[word][similarity]
+  end
+
+  def length
+    @depth.length
   end
 
   private
@@ -43,9 +55,14 @@ class WordSalad
       set.each do |word, hash|
         result[word] = {}
         hash.values.uniq.sort.each do |char_match_count|
-          result_set = hash.collect {|x, y| x if y == char_match_count }.compact
-          result_set = deep_map(get_result_set(result_set)) if result_set.length > 1
-          result_set = result_set.first if result_set.length == 1
+          initial_result = hash.collect {|x, y| x if y == char_match_count }.compact
+          result_set = if initial_result.length > 1
+                         WordSalad.new(initial_result)
+                       elsif initial_result.length == 1
+                         initial_result.first
+                       else
+                         initial_result
+                       end
 
           result[word][char_match_count] = result_set
         end

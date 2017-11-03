@@ -20,15 +20,14 @@ class WordOutline
     end
   end
 
-  def initialize(word_hash, depth = nil)
-    @hash = word_hash || {}
-    @depth = depth
+  def initialize(salad = WordSalad.new([]))
+    @salad = salad
   end
 
   # Possible items...  nil, Pair.new(key, {hash}), Pair.new(key, string)
   def outlineView(_view, numberOfChildrenOfItem: item)
     case item
-    when nil then @hash.length
+    when nil then @salad.length
     when Pair then item.children
     else 0
     end
@@ -42,14 +41,14 @@ class WordOutline
   # Return the actual child, not the data that will be used for display.
   # Item can be: nil, Pair.
   def outlineView(_view, child: index, ofItem: item)
-    base       = item.nil? ? @hash : item.value
-    next_level = item.nil? ? @depth : item.value
+    next_level = item.nil? ? @salad : item.value
+    next_level = next_level.depth if next_level.respond_to? :depth
 
-    case base
+    case next_level
       when String
-        base
+        next_level
       else
-        key = base.keys.sort[index]
+        key = next_level.keys.sort[index]
         Pair.new(key, next_level[key])
     end
   end
