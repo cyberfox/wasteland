@@ -5,6 +5,11 @@
 #  Created by Morgan Schweers on 3/7/09.
 #  Copyright (c) 2009 CyberFOX Software, Inc. All rights reserved.
 #
+class OutlineDelegate
+  def outlineViewItemDidExpand(notification)
+    puts "Item expanded!"
+  end
+end
 
 class Fallout3Controller < NSWindowController
   extend IB
@@ -23,6 +28,7 @@ class Fallout3Controller < NSWindowController
   def clear(sender)
     @textentry.textStorage.setAttributedString(@empty_string)
     @table.dataSource=@empty_outline
+    @table.delegate = OutlineDelegate.new
     @table.reloadData
     @result.stringValue=''
   end
