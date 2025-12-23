@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-# Add your dependencies here:
-gem 'ib'
-gem 'sugarcube', :require => ['sugarcube-attributedstring']
+
+# Web backend
+gem 'sinatra'
+gem 'sinatra-contrib'
+gem 'json'
+gem 'puma'
+gem 'rackup'
