@@ -5,6 +5,7 @@ interface GameBoardProps {
   gameId: string;
   initialSuggestion: string;
   initialRemaining: number;
+  initialPossibleMatches: number[];
   initialHistory: { guess: string; match_count: number }[];
   onReset: () => void;
 }
@@ -13,11 +14,13 @@ export default function GameBoard({
   gameId,
   initialSuggestion,
   initialRemaining,
+  initialPossibleMatches,
   initialHistory,
   onReset,
 }: GameBoardProps) {
   const [suggestion, setSuggestion] = useState(initialSuggestion);
   const [remainingWords, setRemainingWords] = useState(initialRemaining);
+  const [possibleMatches, setPossibleMatches] = useState(initialPossibleMatches);
   const [history, setHistory] = useState(initialHistory);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -37,6 +40,7 @@ export default function GameBoard({
       } else {
         setSuggestion(result.suggestion);
         setRemainingWords(result.remaining_words);
+        setPossibleMatches(result.possible_matches);
         setHistory(result.history);
       }
     } catch (err) {
@@ -103,10 +107,10 @@ export default function GameBoard({
           Try "{suggestion}" and select how many letters match the secret word
         </p>
         <div className="flex gap-2 flex-wrap">
-          {Array.from({ length: suggestion.length + 1 }, (_, i) => (
+          {possibleMatches.map((count) => (
             <button
-              key={i}
-              onClick={() => handleSubmitMatchCount(i)}
+              key={count}
+              onClick={() => handleSubmitMatchCount(count)}
               disabled={loading}
               className={`w-12 h-12 rounded-md font-bold transition-colors ${
                 loading
@@ -114,7 +118,7 @@ export default function GameBoard({
                   : 'bg-gray-200 text-gray-800 hover:bg-blue-600 hover:text-white'
               }`}
             >
-              {i}
+              {count}
             </button>
           ))}
         </div>

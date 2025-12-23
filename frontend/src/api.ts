@@ -4,6 +4,7 @@ export interface GameState {
   game_id: string;
   suggestion: string;
   remaining_words: number;
+  possible_matches: number[];
   history: { guess: string; match_count: number }[];
   solved?: boolean;
   word?: string;

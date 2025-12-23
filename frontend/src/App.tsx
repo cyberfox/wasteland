@@ -11,6 +11,7 @@ function App() {
   const [gameId, setGameId] = useState('');
   const [suggestion, setSuggestion] = useState('');
   const [remainingWords, setRemainingWords] = useState(0);
+  const [possibleMatches, setPossibleMatches] = useState<number[]>([]);
   const [history, setHistory] = useState<{ guess: string; match_count: number }[]>([]);
 
   const handleAnalyzeComplete = async (result: AnalyzeResult) => {
@@ -19,6 +20,7 @@ function App() {
       setGameId(gameState.game_id);
       setSuggestion(gameState.suggestion);
       setRemainingWords(gameState.remaining_words);
+      setPossibleMatches(gameState.possible_matches);
       setHistory(gameState.history);
       setAppState('playing');
     } catch (err) {
@@ -31,6 +33,7 @@ function App() {
     setGameId('');
     setSuggestion('');
     setRemainingWords(0);
+    setPossibleMatches([]);
     setHistory([]);
     setAppState('upload');
   };
@@ -52,6 +55,7 @@ function App() {
             gameId={gameId}
             initialSuggestion={suggestion}
             initialRemaining={remainingWords}
+            initialPossibleMatches={possibleMatches}
             initialHistory={history}
             onReset={handleReset}
           />

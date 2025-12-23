@@ -21,6 +21,14 @@ end
 # Store game sessions in memory
 games = {}
 
+# Helper to serialize WordSalad for JSON
+def serialize_word_salad(ws)
+  {
+    suggestion: ws.friendly_suggestions,
+    remaining_words: ws.length
+  }
+end
+
 # Start a new game
 post '/game/new' do
   data = JSON.parse(request.body.read)
@@ -39,10 +47,12 @@ post '/game/new' do
   }
 
   game_state = games[game_id]
+  suggestion = game_state[:word_salad].suggestions.first
   json({
     game_id: game_id,
-    suggestion: game_state[:word_salad].friendly_suggestions,
+    suggestion: suggestion,
     remaining_words: words.length,
+    possible_matches: game_state[:word_salad].counts(suggestion),
     history: []
   })
 end
@@ -83,10 +93,12 @@ post '/game/:id/guess' do
   else
     # Continue game
     game[:word_salad] = result
+    suggestion = result.suggestions.first
     json({
       solved: false,
-      suggestion: result.friendly_suggestions,
+      suggestion: suggestion,
       remaining_words: result.length,
+      possible_matches: result.counts(suggestion),
       history: game[:history]
     })
   end
@@ -102,10 +114,12 @@ get '/game/:id' do
     return json({ error: 'Game not found' })
   end
 
+  suggestion = game[:word_salad].suggestions.first
   json({
     game_id: game_id,
-    suggestion: game[:word_salad].friendly_suggestions,
+    suggestion: suggestion,
     remaining_words: game[:word_salad].length,
+    possible_matches: game[:word_salad].counts(suggestion),
     history: game[:history]
   })
 end
