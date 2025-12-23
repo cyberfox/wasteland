@@ -19,28 +19,17 @@ export default function GameBoard({
   const [suggestion, setSuggestion] = useState(initialSuggestion);
   const [remainingWords, setRemainingWords] = useState(initialRemaining);
   const [history, setHistory] = useState(initialHistory);
-  const [guess, setGuess] = useState('');
-  const [matchCount, setMatchCount] = useState<number | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [solved, setSolved] = useState(false);
   const [solution, setSolution] = useState('');
 
-  const handleSubmitGuess = async () => {
-    if (!guess.trim()) {
-      setError('Please enter a guess');
-      return;
-    }
-    if (matchCount === null) {
-      setError('Please select the number of matching letters');
-      return;
-    }
-
+  const handleSubmitMatchCount = async (matchCount: number) => {
     setLoading(true);
     setError('');
 
     try {
-      const result = await api.guess(gameId, guess, matchCount);
+      const result = await api.guess(gameId, suggestion, matchCount);
 
       if (result.solved) {
         setSolved(true);
@@ -49,8 +38,6 @@ export default function GameBoard({
         setSuggestion(result.suggestion);
         setRemainingWords(result.remaining_words);
         setHistory(result.history);
-        setGuess('');
-        setMatchCount(null);
       }
     } catch (err) {
       setError('Failed to submit guess. Please try again.');
@@ -68,7 +55,7 @@ export default function GameBoard({
           <p className="text-xl mb-6">The word is:</p>
           <div className="text-4xl font-bold text-gray-800 mb-6">{solution}</div>
           <div className="bg-gray-100 rounded-lg p-4 mb-6">
-            <h3 className="font-semibold mb-2">Guess History:</h3>
+            <h3 className="font-semibold mb-2">Previous guesses:</h3>
             <ul className="space-y-1">
               {history.map((h, i) => (
                 <li key={i} className="text-sm">
@@ -108,39 +95,28 @@ export default function GameBoard({
         </p>
       </div>
 
-      <div className="space-y-4 mb-6">
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
-            Your guess
-          </label>
-          <input
-            type="text"
-            value={guess}
-            onChange={(e) => setGuess(e.target.value)}
-            placeholder="Enter your guess..."
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
-        </div>
-
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
-            How many letters match the suggestion?
-          </label>
-          <div className="flex gap-2 flex-wrap">
-            {Array.from({ length: suggestion.length + 1 }, (_, i) => (
-              <button
-                key={i}
-                onClick={() => setMatchCount(i)}
-                className={`w-12 h-12 rounded-md font-bold transition-colors ${
-                  matchCount === i
-                    ? 'bg-blue-600 text-white'
-                    : 'bg-gray-200 text-gray-800 hover:bg-gray-300'
-                }`}
-              >
-                {i}
-              </button>
-            ))}
-          </div>
+      <div className="mb-6">
+        <label className="block text-sm font-medium text-gray-700 mb-2">
+          How many letters matched?
+        </label>
+        <p className="text-sm text-gray-500 mb-3">
+          Try "{suggestion}" and select how many letters match the secret word
+        </p>
+        <div className="flex gap-2 flex-wrap">
+          {Array.from({ length: suggestion.length + 1 }, (_, i) => (
+            <button
+              key={i}
+              onClick={() => handleSubmitMatchCount(i)}
+              disabled={loading}
+              className={`w-12 h-12 rounded-md font-bold transition-colors ${
+                loading
+                  ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                  : 'bg-gray-200 text-gray-800 hover:bg-blue-600 hover:text-white'
+              }`}
+            >
+              {i}
+            </button>
+          ))}
         </div>
       </div>
 
@@ -150,17 +126,15 @@ export default function GameBoard({
         </div>
       )}
 
-      <button
-        onClick={handleSubmitGuess}
-        disabled={loading}
-        className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors"
-      >
-        {loading ? 'Processing...' : 'Submit Guess'}
-      </button>
+      {loading && (
+        <div className="text-center text-gray-600">
+          Processing...
+        </div>
+      )}
 
       {history.length > 0 && (
         <div className="mt-6 border-t pt-4">
-          <h3 className="font-semibold text-gray-700 mb-2">Guess History:</h3>
+          <h3 className="font-semibold text-gray-700 mb-2">Previous guesses:</h3>
           <ul className="space-y-1">
             {history.map((h, i) => (
               <li key={i} className="text-sm text-gray-600">
